@@ -301,6 +301,11 @@ components:
           format: date-time
           description: The date and time the email was created.
           example: '2023-04-03T22:13:42.674981+00:00'
+        receivedAt:
+          type: string
+          format: date-time
+          description: The date and time the email was received.
+          example: '2023-04-03T22:13:42.674981+00:00'  
         subject:
           type: string
           description: The subject line of the email.
